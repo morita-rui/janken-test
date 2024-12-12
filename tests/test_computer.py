@@ -1,3 +1,4 @@
+computer#2
 import unittest;
 from unittest.mock import patch
 from source.computer import computer_pon;
@@ -17,3 +18,6 @@ class Testplayer(unittest.TestCase):
     def test_computer_ponp(self, mock_choice):
         mock_choice.return_value = 'パー'
         self.assertEqual(computer_pon(), 'パー')
+
+
+ main
